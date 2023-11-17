@@ -2,15 +2,57 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "Who Am I",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "My name is Will Hipson. I’m a Data Engineer at the Halifax International Airport Authority. Enthusiatic R programmer and at times somewhat reluctant Python programmer."
+  },
+  {
+    "objectID": "posts/new-beginning/index.html",
+    "href": "posts/new-beginning/index.html",
+    "title": "New Beginning with |>",
+    "section": "",
+    "text": "New blog, new name, new architecture. Here I talk about my decision to start my blog anew and how I did it."
+  },
+  {
+    "objectID": "posts/new-beginning/index.html#data-scientist-to-data-engineer",
+    "href": "posts/new-beginning/index.html#data-scientist-to-data-engineer",
+    "title": "New Beginning with |>",
+    "section": "Data Scientist to Data Engineer",
+    "text": "Data Scientist to Data Engineer\nMid 2023 I transitioned from data science to data engineering, landing a new position at the Halifax International Airport Authority. With this has come more freedom to experiment and build community. Hence, the start of this blog.\nWhy a new blog and not a continuation of the old one? One reason is practical: setting up the development environment for my old blog would likely involve more work than I’m willing to put in. Plus, creating and maintaining a data blog has gotten easier these days with Quarto and GitHub Pages (more on this later).\nAnother reason is philosophical. I felt it time to make a clean break from my earlier statistical focus. Not that I’m divorcing stats from my work as a data engineer. In fact, by nature of being on a small data team, my work crosscuts almost all aspects of the data landscape, including stats. Still, it’s not my main gig these days and so the idea of continuing where I left off just felt a bit kluge-y."
+  },
+  {
+    "objectID": "posts/new-beginning/index.html#a-note-on-the-name",
+    "href": "posts/new-beginning/index.html#a-note-on-the-name",
+    "title": "New Beginning with |>",
+    "section": "A Note on the Name",
+    "text": "A Note on the Name\nThe two characters ‘|&gt;’ (individually pronounced pipe + greater than) make up the pipe operator in the R language. |&gt; is used for passing an object as the first argument into a function. Using several |&gt; to form a pipeline is a common design pattern that avoids the need for deeply nested function calls.\nSo this:\n\n# My eyes!!!\nnchar(paste(sample(letters, 4), 1:4, collapse = \", \"))\n\n[1] 18\n\n\nBecomes this:\n\n# Much easier to read\nletters |&gt; \n  sample(4) |&gt; \n  paste(1:4, collapse = \", \") |&gt; \n  nchar()\n\n[1] 18\n\n\nTo me on a more abstract level, |&gt; is like a progression. When I use it for data cleaning I’m often starting with raw, messy data at the start of the pipeline followed by some pipes into dplyr::filter() or dplyr::mutate(). So I like to think of |&gt; as symbolic of my own progression. It also represents my love of the R language - quirks and all."
+  },
+  {
+    "objectID": "posts/new-beginning/index.html#quarto-github-pages",
+    "href": "posts/new-beginning/index.html#quarto-github-pages",
+    "title": "New Beginning with |>",
+    "section": "Quarto + GitHub Pages",
+    "text": "Quarto + GitHub Pages\nThis isn’t a tutorial on Quarto or GitHub Pages, rather I want to briefly share my experience moving to this architecture.\nIn my old blog, I used the blogdown package and rmarkdown to generate my content, and then I used Netlify for hosting. The initial setup on the Netlify side posed some challenges, particularly to my 2019 coding self. Moving to GitHub Pages seemed a natural choice given that I’d already been deploying my blog via GitHub.\nAnyone vaguely familiar with the R ecosystem in recent years will have heard of Quarto. I see it as the next step in the evolutionary chain after RMarkdown. It generalizes a lot of the R-specific stuff that RMarkdown did. Beyond my blog, I’ve migrated almost all my reporting needs over to Quarto (except for package vignettes and READMEs it seems)."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "pipe-greater-than",
+    "title": "idea |> data |> share",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "Pleased to meet you! My name is Will and I’m a Data Engineer at the Halifax International Airport Authority. This is where I write about data analytics, engineering, and visualization with an emphasis on R programming.\n\n(The name ‘|&gt; pipe, greater than’ is a reference to R’s pipe operator)\n\n\n\n\n\n\n\n\n\n\n  \n\n\n\n\nNew Beginning with |&gt;\n\n\n\n\n\nReigniting my data blog using Quarto + GitHub Pages\n\n\n\n\n\n\nNov 17, 2023\n\n\nWill Hipson\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/new-beginning/index.html#a-bit-of-history",
+    "href": "posts/new-beginning/index.html#a-bit-of-history",
+    "title": "New Beginning with |>",
+    "section": "A Bit of History",
+    "text": "A Bit of History\nI started my first data blog back in 2019 when I was a psychology grad student. It was a weird crossroads between academia and programming, but I loved it nonetheless and it offered me a great opportunity to hone my skills and share what I was passionate about.\nShortly after the pandemic hit, I pivoted from academia to data science, landing a data scientist position at a tech start up in the maritime industry. It was my first full time job. I was coding 40 hours a week and enjoying it (most of the time). My hobby became my livelihood and so my blogging frequency declined. A few years later, add a baby to the mix and my blog became a relic.\nAnd on some level, I was fine with this. I’d changed so much in my skills and interests that the blog started to lack cohesiveness. Moreover, I increasingly felt I had less to say in the area of machine learning, but despite having more to say on data engineering and software development, I didn’t feel I had sufficient expertise to say anything worthwhile."
+  },
+  {
+    "objectID": "posts/new-beginning/index.html#what-to-expect",
+    "href": "posts/new-beginning/index.html#what-to-expect",
+    "title": "New Beginning with |>",
+    "section": "What to Expect",
+    "text": "What to Expect\nWhere my old blog was strictly an R blog with academic spin, my new blog should be more balanced, still I suspect, with a heavy skew toward R. The focus will be more broadly on the data lifecycle. I think too there will be a bit less polish, with a leaning toward more opinionated pieces instead of how-tos. There are better places for tutorials.\nWhether you’ve been a reader of my old blog or not, I hope you’ll follow me in this new blogging venture. It is a joy to write about the vast world of data and software. Even better if you have people who want to listen and share with you."
   }
 ]

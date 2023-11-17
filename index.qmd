@@ -1,11 +1,13 @@
 ---
-title: "pipe-greater-than"
+title: "idea |> data |> share"
+listing:
+  contents: posts
 ---
 
-This is a Quarto website.
+Pleased to meet you! My name is Will and I'm a Data Engineer at the Halifax International Airport Authority. This is where I write about data analytics, engineering, and visualization with an emphasis on R programming.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+::: {#aside style="font-size: 0.9rem; color: gray"}
+(The name '\|\> pipe, greater than' is a reference to R's pipe operator)
+:::
 
-```{r}
-1 + 1
-```
+------------------------------------------------------------------------

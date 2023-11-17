@@ -1,9 +1,5 @@
 ---
-title: "About"
+title: "Who Am I"
 ---
 
-About this site
-
-```{r}
-1 + 1
-```
+My name is Will Hipson. I'm a Data Engineer at the Halifax International Airport Authority. Enthusiatic R programmer and at times somewhat reluctant Python programmer.
